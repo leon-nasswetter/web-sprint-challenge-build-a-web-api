@@ -23,6 +23,7 @@ router.get("/:id", (req, res) => {
         })
 })
 
+
 router.post("/", (req, res) => {
     const newAction = req.body
     Action.insert(newAction)
